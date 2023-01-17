@@ -1,6 +1,7 @@
 # fingent-assignment
 
-Setup
+project setup
+
 The first thing to do is to clone the repository:
 
 $ git clone https://github.com/karuna-rajan/fingent-assignment.git
@@ -16,5 +17,11 @@ Then install the dependencies:
 Once pip has finished downloading the dependencies:
 
 (env)$ cd config
+
+(env)$ cd python manage.py makemigrations
+
+(env)$ cd python manage.py migrate
+
 (env)$ python manage.py runserver
+
 And navigate to http://127.0.0.1:8000
